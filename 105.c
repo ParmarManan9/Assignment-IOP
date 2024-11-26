@@ -4,8 +4,9 @@
 void permute(char *str, int l, int r);
 
 int main() {
-    char str[] = "ABC";
+    char str[] = "ABCD";
     int n = strlen(str);
+    printf("The permutations of the string are:\n");
     permute(str, 0, n - 1);
     return 0;
 }
